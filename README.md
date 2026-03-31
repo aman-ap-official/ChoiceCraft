@@ -1,5 +1,4 @@
-<!-- README.md -->
-<!-- This file uses HTML/CSS/JS for enhanced visuals; it’s fully compatible with GitHub Flavored Markdown -->
+<!-- README.md - No JS, works perfectly on GitHub -->
 
 <div align="center">
   <img src="https://img.shields.io/badge/License-MIT-yellow.svg" alt="MIT License">
@@ -10,10 +9,7 @@
 <br>
 
 <div align="center">
-  <h1>
-    🎮 ChoiceCraft
-    <span style="font-size: 0.6em; background: #ffb347; color: #1e293b; padding: 0.2em 0.6em; border-radius: 40px;">Interactive Story Engine</span>
-  </h1>
+  <h1>🎮 ChoiceCraft <span style="font-size:0.6em; background:#ffb347; color:#1e293b; padding:0.2em 0.6em; border-radius:40px;">Interactive Story Engine</span></h1>
   <p><strong>Build branching narratives with pure JSON — no coding required for writers.</strong></p>
   <p>
     <a href="https://aman-ap-official.github.io/ChoiceCraft/" target="_blank">
@@ -22,37 +18,34 @@
   </p>
 </div>
 
-<!-- Hero Section with GSAP Animation -->
-<div class="hero" style="background: linear-gradient(135deg, #0b1120, #19233c); color: white; border-radius: 28px; padding: 3rem 2rem; margin-bottom: 3rem; text-align: center; position: relative; overflow: hidden;">
-  <div class="hero-content" style="position: relative; z-index: 2;">
-    <h1 style="font-size: 3rem; font-weight: 800;">ChoiceCraft</h1>
-    <p style="font-size: 1.2rem; max-width: 700px; margin: 1rem auto;">An open-source engine for interactive fiction. Create rich, branching stories with zero complexity.</p>
-    <div style="margin-top: 1.5rem;">
-      <a href="https://aman-ap-official.github.io/ChoiceCraft/" target="_blank" style="background: #ffb347; color: #0b1120; padding: 0.75rem 1.5rem; border-radius: 40px; text-decoration: none; font-weight: bold; margin: 0 0.5rem; display: inline-block;">🎮 Play Demo</a>
-      <a href="#contribute" style="border: 1px solid white; color: white; padding: 0.75rem 1.5rem; border-radius: 40px; text-decoration: none; font-weight: bold; margin: 0 0.5rem; display: inline-block;">🤝 Contribute</a>
-    </div>
+<!-- Hero Section (styled with inline CSS) -->
+<div style="background: linear-gradient(135deg, #0b1120, #19233c); color: white; border-radius: 28px; padding: 3rem 2rem; margin: 2rem 0; text-align: center;">
+  <h1 style="font-size: 2.5rem;">ChoiceCraft</h1>
+  <p style="font-size: 1.2rem; max-width: 700px; margin: 1rem auto;">An open-source engine for interactive fiction. Create rich, branching stories with zero complexity.</p>
+  <div style="margin-top: 1.5rem;">
+    <a href="https://aman-ap-official.github.io/ChoiceCraft/" target="_blank" style="background: #ffb347; color: #0b1120; padding: 0.75rem 1.5rem; border-radius: 40px; text-decoration: none; font-weight: bold; margin: 0 0.5rem; display: inline-block;">🎮 Play Demo</a>
+    <a href="#contribute" style="border: 1px solid white; color: white; padding: 0.75rem 1.5rem; border-radius: 40px; text-decoration: none; font-weight: bold; margin: 0 0.5rem; display: inline-block;">🤝 Contribute</a>
   </div>
-  <div style="position: absolute; top: -30%; right: -10%; width: 300px; height: 300px; background: radial-gradient(circle, rgba(255,180,71,0.2) 0%, rgba(0,0,0,0) 70%); border-radius: 50%; pointer-events: none;"></div>
 </div>
 
 <!-- Features Grid (Bootstrap Icons) -->
 <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 1.5rem; margin: 2rem 0;">
-  <div class="card" style="background: white; border-radius: 24px; padding: 1.5rem; text-align: center; box-shadow: 0 10px 20px -10px rgba(0,0,0,0.1);">
+  <div style="background: white; border-radius: 24px; padding: 1.5rem; text-align: center; box-shadow: 0 10px 20px -10px rgba(0,0,0,0.1);">
     <i class="bi bi-filetype-json" style="font-size: 2.5rem; color: #ffb347;"></i>
     <h3>Data‑Driven</h3>
     <p>Entire story logic lives in <code>story.json</code> — writers never touch the code.</p>
   </div>
-  <div class="card" style="background: white; border-radius: 24px; padding: 1.5rem; text-align: center; box-shadow: 0 10px 20px -10px rgba(0,0,0,0.1);">
+  <div style="background: white; border-radius: 24px; padding: 1.5rem; text-align: center; box-shadow: 0 10px 20px -10px rgba(0,0,0,0.1);">
     <i class="bi bi-images" style="font-size: 2.5rem; color: #0d6efd;"></i>
     <h3>Dynamic Visuals</h3>
     <p>Each scene can have its own background image. Immerse your players.</p>
   </div>
-  <div class="card" style="background: white; border-radius: 24px; padding: 1.5rem; text-align: center; box-shadow: 0 10px 20px -10px rgba(0,0,0,0.1);">
+  <div style="background: white; border-radius: 24px; padding: 1.5rem; text-align: center; box-shadow: 0 10px 20px -10px rgba(0,0,0,0.1);">
     <i class="bi bi-phone" style="font-size: 2.5rem; color: #198754;"></i>
     <h3>Fully Responsive</h3>
     <p>Works perfectly on mobile, tablet, and desktop out of the box.</p>
   </div>
-  <div class="card" style="background: white; border-radius: 24px; padding: 1.5rem; text-align: center; box-shadow: 0 10px 20px -10px rgba(0,0,0,0.1);">
+  <div style="background: white; border-radius: 24px; padding: 1.5rem; text-align: center; box-shadow: 0 10px 20px -10px rgba(0,0,0,0.1);">
     <i class="bi bi-gem" style="font-size: 2.5rem; color: #0dcaf0;"></i>
     <h3>Minimalist Core</h3>
     <p>Zero heavy dependencies — just vanilla HTML, CSS, and JS.</p>
@@ -136,16 +129,5 @@
   <i class="bi bi-chat-heart-fill" style="color: #dc3545;"></i> Open Source — <strong>every contribution builds better stories</strong>
 </p>
 
-<!-- Bootstrap Icons CDN (required for icons) -->
+<!-- Bootstrap Icons (required for icons) -->
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css">
-
-<!-- GSAP Animation (optional, adds smooth entrance) -->
-<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
-<script>
-  // Animate hero and cards on load
-  window.addEventListener('load', () => {
-    gsap.fromTo(".hero", { opacity: 0, y: 30 }, { opacity: 1, y: 0, duration: 1, ease: "power3.out" });
-    gsap.fromTo(".card", { opacity: 0, y: 20 }, { opacity: 1, y: 0, stagger: 0.1, duration: 0.8, delay: 0.3 });
-    gsap.fromTo(".screenshot-img", { scale: 0.95, opacity: 0 }, { scale: 1, opacity: 1, stagger: 0.15, delay: 0.5 });
-  });
-</script>
