@@ -5,7 +5,7 @@
 
 ChoiceCraft is a lightweight, beginner-friendly interactive fiction engine. It allows creators to build complex branching narratives using a simple JSON structure without touching deep logic.
 
-## 🚀 [Live Demo](https://your-username.github.io/choicecraft/)
+## 🚀 [Live Demo](https://aman-ap-official.github.io/ChoiceCraft/)
 
 ## ✨ Features
 
